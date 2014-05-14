@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hotlink tester</title>
+    <meta name="author" content="Jan Klaas Van Den Meersche">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="hotlink.js"></script>
+    <style>
+        body,html {margin: 0;padding: 0;height: 100%; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
+        header {padding: 1em 2em 0;}
+        section {margin: 0;padding: 1em 2em;}
+        h1 {font-size: 2em; font-weight: normal; padding: 0;margin: 1em 0;}
+        #content{background-color: #efefef; font-family:"Courier New", Courier, monospace; padding:5px; font-size:0.9em}
+        img {display: block; margin: 20px 0;}
+    </style>
+</head>
+
+<body>
+<section>
+    <h1>Hotlink tester</h1>
+    <input type="url" id="url" placeholder="Plak hier de url van een afbeelding.">
+    <input type="button" value="Test!" id="test">
+    <img id="theimage">
+</section>
+
+</body>
+
+</html>
