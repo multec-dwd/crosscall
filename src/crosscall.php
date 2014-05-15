@@ -23,7 +23,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ------------------------------------------------------------------------------
-
 */
 
 if($_SERVER['SERVER_NAME'] != parse_url($_SERVER['HTTP_REFERER'], PHP_URL_HOST) ) exit('Ongeldige request.');//check if request is local
